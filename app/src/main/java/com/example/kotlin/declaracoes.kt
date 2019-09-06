@@ -3,9 +3,11 @@ package com.example.kotlin
 fun main(args: Array<String>) {
 
     // mutaveis - var
-    var frase: String = "Hello, word!"
+    val frase: String = "Hello, world!"
 
     println(frase)
+
+
 
     println("$frase")
 
