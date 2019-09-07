@@ -32,5 +32,25 @@ fun main() {
     }
 
     listaIntTeste.forEach { println(it) }
-    listaIntTeste.forEach { println(it) }
+    var aList : ArrayList<String> = ArrayList()
+
+    //lista mutável
+    val listaCursos: MutableList<String> = mutableListOf("Ads", "sdm")
+
+    listaCursos.add("tii")
+    listaCursos.add("tii")
+
+    listaCursos.forEach{ println(it) }
+
+    //set e mutable
+    val setCursos: MutableSet<String> = mutableSetOf("ads", "sdm")
+
+    //map e mutableMap
+    val nomesMap: MutableMap<String, String> = mutableMapOf(
+            Pair("Pai", "Jose"),
+            Pair("mae", "maria")
+            )
+
+    nomesMap.put("filho", "joao")
+
 }
