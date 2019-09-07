@@ -23,7 +23,14 @@ fun main() {
         println(listaInteiros[i])
     }
 
+    for(i in 0..listaInteiros.size - 1){
+        println(listaInteiros[i])
+    }
+
     for(i in listaIntTeste){
         println(i)
     }
+
+    listaIntTeste.forEach { println(it) }
+    listaIntTeste.forEach { println(it) }
 }
